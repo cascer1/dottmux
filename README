@@ -1,0 +1,12 @@
+# Installation (for lazy people):
+
+    bash <(curl -s https://raw.githubusercontent.com/cascer1/dottmux/master/install.sh)
+
+# Installation (for not-so lazy people):
+
+    git clone https://github.com/cascer1/dottmux.git ~/.bash
+
+Create symlinks:
+
+    rm ~/.tmux.conf
+    ln -s ~/.tmux/tmux.conf ~/.tmux.conf
